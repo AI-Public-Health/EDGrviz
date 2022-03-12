@@ -3,10 +3,11 @@ package edu.pitt.isp.sverchkov.bn;
 import java.util.List;
 import java.util.Map;
 
-/**
+/*author*
  *
  * @author YUS24
  */
+
 public interface MutableBayesNet<N,V> extends BayesNet<N,V> {
 
     public interface MutableBayesNet<N,V> extends BayesNet<N,V> {
