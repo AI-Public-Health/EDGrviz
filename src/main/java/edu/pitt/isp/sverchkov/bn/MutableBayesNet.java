@@ -7,7 +7,7 @@ import java.util.Map;
  *
  * @author YUS24
  */
-public interface MutableBayesNet {
+public interface MutableBayesNet<N,V> extends BayesNet<N,V> {
 
     public interface MutableBayesNet<N,V> extends BayesNet<N,V> {
         void setCPT( N node, Map<N,V> parentAssignment, Map<V,Double> conditionalProbabilities );
