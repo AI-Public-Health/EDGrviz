@@ -46,7 +46,7 @@ public class SMILEBayesNet extends AbstractValueDAG<String,String> implements Mu
     /**
      * Ye added: get joint probability for nodes
      * @param nodes
-     * @param permutationList
+     * @param //permutationList
      * @return
      */
     public double probabilities2( List<? extends String> nodes, ArrayList<String> onePermutation){
