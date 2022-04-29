@@ -76,6 +76,13 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>edu.pitt.isp.sverchkov</groupId>
+            <artifactId>ptool</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+
 
     </dependencies>
 </project>
