@@ -27,12 +27,28 @@
 
 
 
-    <repositories> <repository>
+    <repositories> 
+             
+    <repository>
         <id>bayesfusion-repo</id>
         <name>BayesFusion Repository</name>
 
         <url>https://support.bayesfusion.com/maven-A</url>
-    </repository> </repositories>
+             
+              
+    </repository> 
+             
+              <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/AI-Public-Health</url>
+        </repository>
+         
+         
+         
+         
+         
+         </repositories>
 
     <dependencies> <dependency>
 
